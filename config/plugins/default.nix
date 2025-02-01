@@ -6,6 +6,7 @@
     ./telescope.nix
     ./autopairs.nix
     ./illuminate.nix
+    ./mini.nix
   ];
 
 }
