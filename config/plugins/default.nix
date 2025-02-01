@@ -5,6 +5,7 @@
     ./extra.nix
     ./telescope.nix
     ./autopairs.nix
+    ./illuminate.nix
   ];
 
 }
