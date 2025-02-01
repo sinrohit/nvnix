@@ -3,7 +3,7 @@
   keymaps = [
     {
       action = "<cmd>NvimTreeFindFileToggle<CR>";
-      key = "<leader>tt";
+      key = "<leader>fe";
     }
     {
       action = "<cmd>NvimTreeFindFile<CR>";

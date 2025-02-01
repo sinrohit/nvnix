@@ -7,6 +7,7 @@
     ./autopairs.nix
     ./illuminate.nix
     ./mini.nix
+    ./startup.nix
   ];
 
 }
