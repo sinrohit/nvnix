@@ -74,9 +74,7 @@
         '';
         notify_on_error = true;
         formatters_by_ft = {
-          nix = [
-            "nixpkgs-fmt"
-          ];
+          nix = [ "nixfmt-rfc-style" ];
           markdown = {
             __unkeyed-1 = "prettierd";
             __unkeyed-2 = "prettier";
