@@ -15,6 +15,12 @@
           options.desc = "recent files";
           action = "oldfiles";
         };
+        "<leader>uC" = {
+          action = "colorscheme";
+          options = {
+            desc = "Colorscheme preview";
+          };
+        };
       };
       extensions = {
         file-browser.enable = true;
@@ -24,4 +30,13 @@
       };
     };
   };
+  extraConfigLua = ''
+    require("telescope").setup{
+      pickers = {
+        colorscheme = {
+          enable_preview = true
+        }
+      }
+    }
+  '';
 }
