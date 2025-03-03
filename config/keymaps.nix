@@ -7,7 +7,7 @@
     }
     {
       action = "<cmd>NvimTreeFindFile<CR>";
-      key = "<leader>tf";
+      key = "<leader>fr";
     }
     # Lazygit keymap
     {

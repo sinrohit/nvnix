@@ -8,6 +8,8 @@
     ./illuminate.nix
     ./mini.nix
     ./startup.nix
+    ./toggleterm.nix
+    ./conform.nix
   ];
 
 }
