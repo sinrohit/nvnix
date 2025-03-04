@@ -1,7 +1,8 @@
 {
   colorschemes = {
+    gruvbox.enable = true;
     catppuccin = {
-      enable = true;
+      enable = false;
       settings = {
         background = {
           light = "macchiato";
