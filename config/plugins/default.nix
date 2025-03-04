@@ -9,7 +9,7 @@
     ./mini.nix
     ./startup.nix
     ./toggleterm.nix
-    ./conform.nix
+    #./conform.nix
   ];
 
 }
